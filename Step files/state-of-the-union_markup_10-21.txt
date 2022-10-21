@@ -1,0 +1,20 @@
+Finn
+Replaced asterisks seperating speeches with dashes
+Regex
+Find: '\*\*\*'
+Replace: '---'
+
+added <address> start tags
+regex
+Find: '---\n\n(.)'
+Replace: '---\n\n<address>\1'
+
+closed <address> elements
+regex
+Find: '\n\n---'
+replace: '\n</address>\n---'
+
+removed ampersands (found 7)
+regex
+Find: '\&'
+Replace: 'and'
