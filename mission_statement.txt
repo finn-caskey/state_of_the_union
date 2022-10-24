@@ -1,0 +1,10 @@
+Search US Presidents' state of the union speeches for mentions of
+
+-war
+-economics
+-healthcare
+-diplomacy
+-religion
+-immigration
+
+scale tbd

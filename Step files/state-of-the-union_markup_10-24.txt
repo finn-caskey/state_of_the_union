@@ -1,0 +1,16 @@
+regex 10/24
+Finn
+
+Wrapped all state of the union address lines with <title> element
+Regex
+FAILED TO RECORD
+
+wrapped all speaker names in <president> element
+regex
+Find: '</title>\n(.*$)'
+Replace: '</title>\n<president>\1</president>'
+
+wrapped all given dates in <date> element
+Regex
+Find: '</president>\n(.*$)'
+Replace: '</president>\n<date>\1</date>'
