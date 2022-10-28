@@ -1,4 +1,5 @@
-Search US Presidents' state of the union speeches for mentions of
+Search US Presidents' state of the union speeches 
+from Kennedy onward for mentions of...
 
 -war
 -economics
