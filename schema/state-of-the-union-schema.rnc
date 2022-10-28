@@ -1,6 +1,7 @@
-datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-daFtatypes"
 start=sotu
-sotu=element sotu{(address*|text)*}
+sotu=element sotu{(address*|text|scope)*}
+scope=element scope{(address|text)*}
 address=element address{(title|text|president|date)*}
 title=element title{text}
 president=element president{text}
