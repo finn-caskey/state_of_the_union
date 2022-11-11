@@ -8,4 +8,4 @@ from Kennedy onward for mentions of...
 -religion
 -immigration
 
-scale tbd
+<topic type="___"></topic>
