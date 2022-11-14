@@ -1,8 +1,11 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-daFtatypes"
 start=sotu
 sotu=element sotu{(address*|text|scope)*}
-scope=element scope{(address|text)*}
+scope=element scope{(address|text|finn|joey|brian)*}
 address=element address{(title|text|president|date|p|greeting)*}
+finn=element finn{empty}
+joey=element joey{empty}
+brian=element brian{empty}
 p=element p{(topic|text)*}
 topic=element topic{(topic|type|text)*}
 type=attribute type{"war"|"econ"|"infra"|"civ"|"pov"|"dipl"}
