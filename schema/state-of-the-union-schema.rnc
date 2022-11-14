@@ -3,8 +3,13 @@ start=sotu
 sotu=element sotu{(address*|text|scope)*}
 scope=element scope{(address|text)*}
 address=element address{(title|text|president|date|p|greeting)*}
-p=element p{text}
+p=element p{(topic|text)*}
+topic=element topic{(topic|type|text)*}
+type=attribute type{"war"|"econ"|"infra"|"civ"|"pov"}
+# war economy infrastructure civil-rights poverty
 greeting=element greeting{text}
 title=element title{text}
 president=element president{text}
 date=element date{text}
+
+
