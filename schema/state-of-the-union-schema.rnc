@@ -5,8 +5,8 @@ scope=element scope{(address|text)*}
 address=element address{(title|text|president|date|p|greeting)*}
 p=element p{(topic|text)*}
 topic=element topic{(topic|type|text)*}
-type=attribute type{"war"|"econ"|"infra"|"civ"|"pov"}
-# war economy infrastructure civil-rights poverty
+type=attribute type{"war"|"econ"|"infra"|"civ"|"pov"|"dipl"}
+# war diplomacy economy infrastructure civil-rights poverty
 greeting=element greeting{text}
 title=element title{text}
 president=element president{text}
