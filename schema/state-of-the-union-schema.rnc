@@ -8,8 +8,8 @@ joey=element joey{empty}
 brian=element brian{empty}
 p=element p{(topic|text)*}
 topic=element topic{(topic|type|text)*}
-type=attribute type{"war"|"econ"|"infra"|"civ"|"pov"|"dipl"}
-# war diplomacy economy infrastructure civil-rights poverty
+type=attribute type{"war"|"econ"|"infra"|"civ"|"pov"|"dipl"|"healh"}
+# war diplomacy economy infrastructure civil-rights poverty healthcare
 greeting=element greeting{text}
 title=element title{text}
 president=element president{text}
