@@ -13,36 +13,32 @@
         <html>
             
             <head>
-                <title>United States Presidents' Inaugural Speeches</title>
-                <link rel="stylesheet" href="/InaugAddresses/html-css/index.css"/>
+                <title>United States Presidents' State of the Union Addresses</title>
+                <link rel="stylesheet" href="/SOTU_Addresses/html-css/index.css"/>
             </head>
             
             
             <body>
-                <h1>Inaugural Addresses</h1>
+                <h1>State of the Union Addresses</h1>
                 <div id="navbar">
                     <div class="navbar">
-                        <a href="/InaugAddresses/index.xhtml">Home</a>
+                        <a href="/SOTU_Addresses/index.xhtml">Home</a>
                         <div class="dropdown">
                             <button class="dropbtn">About</button>
                             <div class="dropdown-content">
-                                <a href="/InaugAddresses/html-css/team.html">Team</a>
-                                <a href="/InaugAddresses/html-css/purpose.html">Purpose</a>
-                                <a href="/InaugAddresses/html-css/method.html">Methodology</a>
+                                <a href="/SOTU_Addresses/html-css/team.html">Team</a>
+                                <a href="/SOTU_Addresses/html-css/purpose.html">Purpose</a>
+                                <a href="/SOTU_Addresses/html-css/method.html">Methodology</a>
                             </div>
                         </div>           
-                        <a href="/InaugAddresses/html-css/page.html">Text</a>
+                        <a href="/SOTU_Addresses/html-css/page.html">Text</a>
                         <div class="dropdown">
                             <button class="dropbtn">Analysis</button>
-                            <div class="dropdown-content">
-                                <a href="/InaugAddresses/html-css/graph.html">Graph (Characters Per Speech)</a>
-                                <a href="/InaugAddresses/html-css/graphpercent.html">Graph (Percentage of Speech)</a>
-                                <a href="/InaugAddresses/html-css/discussion.html">Discussion</a>                       
-                            </div>
+                                                   
                         </div>                
                     </div>
                 </div>
-                <h1>United States Presidents' Inaugural Speeches</h1>
+                <h1>United States Presidents' State of the Union Addresses</h1>
                 <h2>Table of Contents</h2>
                 <ol><xsl:apply-templates select = "descendant::address" mode ="toc"/>
                 </ol>
@@ -72,8 +68,8 @@
         <xsl:apply-templates select="descendant::p"/>
     </xsl:template>
     
-    <xsl:template match = "ref[@type = 'social']">
-        <span class = "social"><xsl:apply-templates/></span>
+    <xsl:template match = "ref[@type = 'civil rights']">
+        <span class = "civil rights"><xsl:apply-templates/></span>
     </xsl:template>
     
     <xsl:template match = "ref[@type = 'economy']">
@@ -84,8 +80,8 @@
         <span class = "diplomacy"><xsl:apply-templates/></span>
     </xsl:template>
     
-    <xsl:template match = "ref[@type = 'religion']">
-        <span class = "religion"><xsl:apply-templates/></span>
+    <xsl:template match = "ref[@type = 'povery']">
+        <span class = "poverty"><xsl:apply-templates/></span>
     </xsl:template>
     
     <xsl:template match = "ref[@type = 'war']">
