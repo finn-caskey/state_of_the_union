@@ -1,5 +1,4 @@
-body {background-image: url("https://github.com/finn-caskey/finn-repo1/blob/main/pics/gasstationatnightpape.jpg?raw=true")
-}
+body {background-color: #b98b46}
 
 h1 {
   font-family: Helvetica, sans-serif;
@@ -23,25 +22,23 @@ p {
     text-align: center;
 }
 
-ul {
-    color: white;
-    line-height: 2; 
-    border-style: solid;
-}
+
 
 div.list {
   text-align: center;
 }
 
 ul {
-    position: relative;
-    
-    text-align: center;
+   list-style-type: none;
+  margin: 0;
+  color: white;
+  padding: 0;
+  overflow: hidden;
+  background-color:#f0793a;
 
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+li {
+  float: left;
+  display:inline;
 }
+
+
