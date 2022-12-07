@@ -39,12 +39,30 @@
                     </div>
                 </div>
                 <h1>United States Presidents' State of the Union Addresses</h1>
+                
+                <div id="fieldset">
+                    <fieldset>
+                        <legend>Click to Highlight:</legend>
+                        <input type="checkbox" id="wartoggle" style="cursor:pointer"></input><span class="war">War</span>
+                        <br></br>
+                        <input type="checkbox" id="diplomacytoggle" style="cursor:pointer"></input><span class="diplomacy">Diplomacy</span>
+                        <br></br>
+                        <input type="checkbox" id="economytoggle" style="cursor:pointer"></input><span class="economy">Economy</span>
+                        <br></br>
+                        <input type="checkbox" id="socialtoggle" style="cursor:pointer"></input><span class="social">Social</span>
+                        <br></br>
+                        <input type="checkbox" id="religiontoggle" style="cursor:pointer"></input><span class="religion">Religion</span>
+                        <br></br>
+                    </fieldset>
+                </div>
+                
                 <h2>Table of Contents</h2>
-                <ol><xsl:apply-templates select = "descendant::address" mode ="toc"/>
+                <!--remove scope for all-->
+                <ol><xsl:apply-templates select = "descendant::scope/address" mode ="toc"/>
                 </ol>
                 <hr/>
-                
-                <xsl:apply-templates select="descendant::address"/>
+                <!--remove scope for all-->
+                <xsl:apply-templates select="descendant::scope/address"/>
                 
             </body>
             
@@ -80,7 +98,7 @@
         <span class = "diplomacy"><xsl:apply-templates/></span>
     </xsl:template>
     
-    <xsl:template match = "ref[@type = 'povery']">
+    <xsl:template match = "ref[@type = 'poverty']">
         <span class = "poverty"><xsl:apply-templates/></span>
     </xsl:template>
     
