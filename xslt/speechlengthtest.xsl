@@ -43,8 +43,8 @@
                     </div>
                     <h1>United States Presidents' State of the Union Addresses</h1>
                     <h2>Speech Length</h2>
-                    
-                    
+                    <!--generates table w same data as graph-->
+                   <!-- 
                     <table>
                         <tr>
                             <th>
@@ -65,9 +65,9 @@
                             </tr>
                         </xsl:for-each-group>
                     </table>
+                    -->
                     
-                    
-                    <svg width="150%" height="850%">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 10000">
                         <g transform="translate(250, 50)">
                             
                            
@@ -79,7 +79,7 @@
                             <line x1="20" x2="1400" y1="0" y2="0" stroke="black" stroke-width="1"/>
                             
                             <!-- labels the x-axis (bottom) -->
-                            <text x="20" y="{(59 * $interval) + 120}" text-anchor="middle">0 Average Speech Length</text>
+                            <text x="20" y="{(59 * $interval) + 120}" text-anchor="middle">0</text>
                             <text x="150" y="{(59 * $interval) + 120}" text-anchor="middle">1000</text>
                             <text x="280" y="{(59 * $interval) + 120}" text-anchor="middle">2000</text>
                             <text x="410" y="{(59 * $interval) + 120}" text-anchor="middle">3000</text>
@@ -92,7 +92,7 @@
                             <text x="1320" y="{(59 * $interval) + 120}" text-anchor="middle">10000</text>
                             
                             <!-- labels the x-axis (top) -->
-                            <text x="20" y="-10" text-anchor="middle">0 Average Speech Length</text>
+                            <text x="20" y="-10" text-anchor="middle">0</text>
                             <text x="150" y="-10" text-anchor="middle">1000</text>
                             <text x="280" y="-10" text-anchor="middle">2000</text>
                             <text x="410" y="-10" text-anchor="middle">3000</text>
@@ -106,22 +106,20 @@
                             
                             <xsl:for-each-group select = "//address" group-by = "president">
                                 
-                                <xsl:value-of select = "count(current-group())"/>
-                                <xsl:value-of select = "round(string-length(string-join(current-group())) div count(current-group()))"/>
-                                
+                                                               
                                 <xsl:variable name="ypos" select="position() * $interval"/>
                                 <xsl:variable name="xpos" select="(count(current-group())*20 )+20"/>
                                 
-                                <xsl:variable name="xposP" select="round(string-length(string-join(current-group())) div count(current-group()))*.05+20"/>
-                                
+                                <xsl:variable name="xposP" select="string-length(string-join(current-group())) div count(current-group())*.0125+20"/>
+                                 
                                 <line x1="20" x2="{$xposP}" y1="{$ypos}" y2="{$ypos}" stroke="red" stroke-width="15"/>
                                 
                                 <text x="{$xposP + 10}" y="{$ypos+5}">
-                                    War: <xsl:value-of select="round(string-length(string-join(current-group())) div count(current-group()))"/>
+                                     <xsl:value-of select="round(string-length(string-join(current-group())) div count(current-group()))"/>
                                 </text>
                                 
                                 <!--y-axis label -->
-                                <text x="-100" y="{$ypos+30}" text-anchor="middle"><xsl:apply-templates select="president"/>-<xsl:apply-templates select = "date"/></text>
+                                <text x="-100" y="{$ypos+30}" text-anchor="middle"><xsl:apply-templates select="president"/>-<xsl:value-of select = "count(current-group())"/><xsl:text> Speeches</xsl:text> </text>
                                 
                             </xsl:for-each-group>
                         </g>
