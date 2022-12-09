@@ -14,7 +14,8 @@
             
             <head>
                 <title>United States Presidents' State of the Union Addresses</title>
-                <link rel="stylesheet" href="/SOTU_Addresses/html-css/index.css"/>
+                <link rel="stylesheet" href="index.css"/>
+                <script type="text/javascript" src="colortoggle.js">/**/</script>
             </head>
             
             
@@ -45,9 +46,11 @@
                         <br></br>
                         <input type="checkbox" id="economytoggle" style="cursor:pointer"></input><span class="economy">Economy</span>
                         <br></br>
-                        <input type="checkbox" id="socialtoggle" style="cursor:pointer"></input><span class="social">Social</span>
+                        <input type="checkbox" id="infrastructuretoggle" style="cursor:pointer"></input><span class="infrastructure">Infrastructure</span>
                         <br></br>
-                        <input type="checkbox" id="religiontoggle" style="cursor:pointer"></input><span class="religion">Religion</span>
+                        <input type="checkbox" id="civil-rightstoggle" style="cursor:pointer"></input><span class="civil-rights">Civil-Rights</span>
+                        <br></br>
+                        <input type="checkbox" id="povertytoggle" style="cursor:pointer"></input><span class="poverty">Poverty</span>
                         <br></br>
                     </fieldset>
                 </div>

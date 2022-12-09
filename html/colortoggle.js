@@ -34,20 +34,28 @@ function toggle() {
             }
         };
         break;
-        case "socialtoggle": {
-            var ref = document.getElementsByClassName("social");
+        case "infrastructuretoggle": {
+            var ref = document.getElementsByClassName("infrastructure");
             for (var i = 0; i < ref.length; i++) {
                 ref[i].classList.toggle("on")
             }
         };
         break;
-        case "religiontoggle": {
-            var ref = document.getElementsByClassName("religion");
+        case "civil-rightstoggle": {
+            var ref = document.getElementsByClassName("civil-rights");
             for (var i = 0; i < ref.length; i++) {
                 ref[i].classList.toggle("on")
             }
         };
         break;
+    case "povertytoggle": {
+            var ref = document.getElementsByClassName("poverty");
+            for (var i = 0; i < ref.length; i++) {
+                ref[i].classList.toggle("on")
+            }
+        };
+        break;
+    
     }
      
   }  
