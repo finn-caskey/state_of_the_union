@@ -82,24 +82,28 @@
         <xsl:apply-templates select="descendant::p"/>
     </xsl:template>
     
-    <xsl:template match = "ref[@type = 'civil rights']">
-        <span class = "civil rights"><xsl:apply-templates/></span>
+    <xsl:template match = "topic[@type = 'civ']">
+        <span class = "civil-rights"><xsl:apply-templates/></span>
     </xsl:template>
     
-    <xsl:template match = "ref[@type = 'economy']">
+    <xsl:template match = "topic[@type = 'econ']">
         <span class = "economy"><xsl:apply-templates/></span>
     </xsl:template>
     
-    <xsl:template match = "ref[@type = 'diplomacy']">
+    <xsl:template match = "topic[@type = 'dipl']">
         <span class = "diplomacy"><xsl:apply-templates/></span>
     </xsl:template>
     
-    <xsl:template match = "ref[@type = 'poverty']">
+    <xsl:template match = "topic[@type = 'pov']">
         <span class = "poverty"><xsl:apply-templates/></span>
     </xsl:template>
     
-    <xsl:template match = "ref[@type = 'war']">
+    <xsl:template match = "topic[@type = 'war']">
         <span class = "war"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match = "topic[@type = 'infra']">
+        <span class = "infra"><xsl:apply-templates/></span>
     </xsl:template>
     
 </xsl:stylesheet>

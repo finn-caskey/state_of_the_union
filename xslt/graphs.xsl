@@ -42,7 +42,7 @@
                         <line x1="20" x2="1400" y1="0" y2="0" stroke="black" stroke-width="1"/>
                         
                         <!-- labels the x-axis (bottom) -->
-                        <text x="20" y="{(59 * $interval) + 120}" text-anchor="middle">0 Average Speech Length</text>
+                        <text x="20" y="{(59 * $interval) + 120}" text-anchor="middle">0</text>
                         <text x="150" y="{(59 * $interval) + 120}" text-anchor="middle">1000</text>
                         <text x="280" y="{(59 * $interval) + 120}" text-anchor="middle">2000</text>
                         <text x="410" y="{(59 * $interval) + 120}" text-anchor="middle">3000</text>
@@ -55,7 +55,7 @@
                         <text x="1320" y="{(59 * $interval) + 120}" text-anchor="middle">10000</text>
                         
                         <!-- labels the x-axis (top) -->
-                        <text x="20" y="-10" text-anchor="middle">0 Average Speech Length</text>
+                        <text x="20" y="-10" text-anchor="middle">0</text>
                         <text x="150" y="-10" text-anchor="middle">1000</text>
                         <text x="280" y="-10" text-anchor="middle">2000</text>
                         <text x="410" y="-10" text-anchor="middle">3000</text>
