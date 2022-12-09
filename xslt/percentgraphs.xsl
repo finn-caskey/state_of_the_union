@@ -4,7 +4,7 @@
     xmlns="http://www.w3.org/2000/svg">
     <xsl:output method="xml" indent="yes"/>
     
-    <xsl:variable name = "interval" select = "100"/>
+    <xsl:variable name = "interval" select = "125"/>
     
     <xsl:template match = "/">
         <html>
