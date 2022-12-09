@@ -77,7 +77,7 @@
         <li><a href="#id{translate(child::date,' ', '_')}"><strong><xsl:apply-templates select = "child::president"/>
             <xsl:text>: </xsl:text>
         <xsl:apply-templates select="child::date"/></strong></a>
-        <xsl:text> [Refs: </xsl:text><xsl:value-of select = "count(descendant::ref[@type])"/><xsl:text>]</xsl:text></li>    
+        <xsl:text> [Refs: </xsl:text><xsl:value-of select = "count(descendant::topic[@type])"/><xsl:text>]</xsl:text></li>    
     </xsl:template>
     
     <xsl:template match = "address">
