@@ -14,30 +14,22 @@
             </head>
             
             <body>
-                <h1>Inaugural Addresses</h1>
+                <h1>State Of The Union</h1>
+                <!--navbar-->
                 <div id="navbar">
                     <div class="navbar">
-                        <a href="/InaugAddresses/index.xhtml">Home</a>
-                        <div class="dropdown">
-                            <button class="dropbtn">About</button>
-                            <div class="dropdown-content">
-                                <a href="/InaugAddresses/html-css/team.html">Team</a>
-                                <a href="/InaugAddresses/html-css/purpose.html">Purpose</a>
-                                <a href="/InaugAddresses/html-css/method.html">Methodology</a>
-                            </div>
-                        </div>           
-                        <a href="/InaugAddresses/html-css/page.html">Text</a>
-                        <div class="dropdown">
-                            <button class="dropbtn">Analysis</button>
-                            <div class="dropdown-content">
-                                <a href="/InaugAddresses/html-css/graph.html">Graph (Characters Per Speech)</a>
-                                <a href="/InaugAddresses/html-css/graphpercent.html">Graph (Percentage of Speech)</a>
-                                <a href="/InaugAddresses/html-css/discussion.html">Discussion</a>                       
-                            </div>
-                        </div>                
+                        <ul>
+                            <li><a href="/state_of_the_union/index.html">Home</a></li>
+                            <li><a href="/state_of_the_union/html/about.html">About</a></li>
+                            <li><a href="/state_of_the_union/html/scope_toc.html">Addresses from John F. Kennedy to George W. Bush</a></li>
+                            <li><a href="/state_of_the_union/html/non_scope_toc.html">All Addresses</a></li>
+                            <li><a href="/state_of_the_union/html/graphs.html">Topic Reference Graphs By Mention</a></li>
+                            <li><a href="/state_of_the_union/html/percentgraphs.html">Topic Reference Graphs By Percentage</a></li>
+                            <li><a href="/state_of_the_union/html/speechlengthgraph.html">Average Address Length By President</a></li>
+                        </ul>
                     </div>
                 </div>
-                <h1>Length of References per Speech (War, Religion, Economy, Social, Diplomacy)</h1>
+                <h1>Length of References per Speech (War, Infrastructure, Diplomacy, Economics, Civil Rights, Poverty)</h1>
                 <svg width="150%" height="850%">
                     <g transform="translate(250, 50)">
                             

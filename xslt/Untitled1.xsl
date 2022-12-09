@@ -49,7 +49,7 @@
     <xsl:template match="l">
         <xsl:value-of select="count(preceding::l) + 1"/><xsl:text>: </xsl:text><xsl:apply-templates/>
         <xsl:if test="following-sibling::l"><br/></xsl:if>
-
+    </xsl:template>
     
     <xsl:template match="rdg">
         <span class="{@wit}"><xsl:apply-templates/></span>

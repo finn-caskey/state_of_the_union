@@ -20,22 +20,18 @@
             
             <body>
                 <h1>State of the Union Addresses</h1>
+                <!--navbar-->
                 <div id="navbar">
                     <div class="navbar">
-                        <a href="/SOTU_Addresses/index.xhtml">Home</a>
-                        <div class="dropdown">
-                            <button class="dropbtn">About</button>
-                            <div class="dropdown-content">
-                                <a href="/SOTU_Addresses/html-css/team.html">Team</a>
-                                <a href="/SOTU_Addresses/html-css/purpose.html">Purpose</a>
-                                <a href="/SOTU_Addresses/html-css/method.html">Methodology</a>
-                            </div>
-                        </div>           
-                        <a href="/SOTU_Addresses/html-css/page.html">Text</a>
-                        <div class="dropdown">
-                            <button class="dropbtn">Analysis</button>
-                                                   
-                        </div>                
+                        <ul>
+                            <li><a href="/state_of_the_union/index.html">Home</a></li>
+                            <li><a href="/state_of_the_union/html/about.html">About</a></li>
+                            <li><a href="/state_of_the_union/html/scope_toc.html">Addresses from John F. Kennedy to George W. Bush</a></li>
+                            <li><a href="/state_of_the_union/html/non_scope_toc.html">All Addresses</a></li>
+                            <li><a href="/state_of_the_union/html/graphs.html">Topic Reference Graphs By Mention</a></li>
+                            <li><a href="/state_of_the_union/html/percentgraphs.html">Topic Reference Graphs By Percentage</a></li>
+                            <li><a href="/state_of_the_union/html/speechlengthgraph.html">Average Address Length By President</a></li>
+                        </ul>
                     </div>
                 </div>
                 <h1>United States Presidents' State of the Union Addresses</h1>
