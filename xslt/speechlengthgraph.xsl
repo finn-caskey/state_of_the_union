@@ -9,7 +9,7 @@
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
     
-    <xsl:variable name = "interval" select = "125"/>
+    <xsl:variable name = "interval" select = "65"/>
     
     <xsl:template match = "/">
   
@@ -68,24 +68,26 @@
                             
                            
                             <!-- y-axis -->
-                            <line x1="20" x2="20" y1="0" y2="{(59 * $interval) + 100}" stroke="black" stroke-width="1"/>
+                            <line x1="20" x2="20" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1"/>
                             <!-- x-axis (bottom) -->
-                            <line x1="20" x2="1400" y1="{(59 * $interval) + 100}" y2="{(59 * $interval) +100}" stroke="black" stroke-width="1"/>
+                            <line x1="20" x2="1650" y1="{(59 * $interval) -1160}" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1"/>
                             <!-- x-axis (top)-->
-                            <line x1="20" x2="1400" y1="0" y2="0" stroke="black" stroke-width="1"/>
+                            <line x1="20" x2="1650" y1="0" y2="0" stroke="black" stroke-width="1"/>
                             
                             <!-- labels the x-axis (bottom) -->
-                            <text x="20" y="{(59 * $interval) + 120}" text-anchor="middle">0</text>
-                            <text x="150" y="{(59 * $interval) + 120}" text-anchor="middle">1000</text>
-                            <text x="280" y="{(59 * $interval) + 120}" text-anchor="middle">2000</text>
-                            <text x="410" y="{(59 * $interval) + 120}" text-anchor="middle">3000</text>
-                            <text x="540" y="{(59 * $interval) + 120}" text-anchor="middle">4000</text>
-                            <text x="670" y="{(59 * $interval) + 120}" text-anchor="middle">5000</text>
-                            <text x="800" y="{(59 * $interval) + 120}" text-anchor="middle">6000</text>
-                            <text x="930" y="{(59 * $interval) + 120}" text-anchor="middle">7000</text>
-                            <text x="1060" y="{(59 * $interval) + 120}" text-anchor="middle">8000</text>
-                            <text x="1190" y="{(59 * $interval) + 120}" text-anchor="middle">9000</text>
-                            <text x="1320" y="{(59 * $interval) + 120}" text-anchor="middle">10000</text>
+                            <text x="20" y="{(59 * $interval) - 1140}" text-anchor="middle">0</text>
+                            <text x="150" y="{(59 * $interval) - 1140}" text-anchor="middle">1000</text>
+                            <text x="280" y="{(59 * $interval) - 1140}" text-anchor="middle">2000</text>
+                            <text x="410" y="{(59 * $interval) - 1140}" text-anchor="middle">3000</text>
+                            <text x="540" y="{(59 * $interval) - 1140}" text-anchor="middle">4000</text>
+                            <text x="670" y="{(59 * $interval) - 1140}" text-anchor="middle">5000</text>
+                            <text x="800" y="{(59 * $interval) - 1140}" text-anchor="middle">6000</text>
+                            <text x="930" y="{(59 * $interval) - 1140}" text-anchor="middle">7000</text>
+                            <text x="1060" y="{(59 * $interval) - 1140}" text-anchor="middle">8000</text>
+                            <text x="1190" y="{(59 * $interval) - 1140}" text-anchor="middle">9000</text>
+                            <text x="1320" y="{(59 * $interval) - 1140}" text-anchor="middle">10000</text>
+                            <text x="1450" y="{(59 * $interval) - 1140}" text-anchor="middle">11000</text>
+                            <text x="1580" y="{(59 * $interval) - 1140}" text-anchor="middle">12000</text>
                             
                             <!-- labels the x-axis (top) -->
                             <text x="20" y="-10" text-anchor="middle">0</text>
@@ -99,6 +101,23 @@
                             <text x="1060" y="-10" text-anchor="middle">8000</text>
                             <text x="1190" y="-10" text-anchor="middle">9000</text>
                             <text x="1320" y="-10" text-anchor="middle">10000</text>
+                            <text x="1450" y="-10" text-anchor="middle">11000</text>
+                            <text x="1580" y="-10" text-anchor="middle">12000</text>
+                            
+                            
+                            <!-- the line going through the bars  -->
+                            <line x1="150" x2="150" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="280" x2="280" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="410" x2="410" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="540" x2="540" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="670" x2="670" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="800" x2="800" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="930" x2="930" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="1060" x2="1060" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="1190" x2="1190" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="1320" x2="1320" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="1450" x2="1450" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="1580" x2="1580" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
                             
                             <xsl:for-each-group select = "//address" group-by = "president">
                                 
@@ -115,7 +134,7 @@
                                 </text>
                                 
                                 <!--y-axis label -->
-                                <text x="-100" y="{$ypos+30}" text-anchor="middle"><xsl:apply-templates select="president"/>-<xsl:value-of select = "count(current-group())"/><xsl:text> Speeches</xsl:text> </text>
+                                <text x="-100" y="{$ypos+3}" text-anchor="middle"><xsl:apply-templates select="president"/>-<xsl:value-of select = "count(current-group())"/><xsl:text> Speeches</xsl:text> </text>
                                 
                             </xsl:for-each-group>
                         </g>
