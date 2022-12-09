@@ -17,7 +17,7 @@
                 
                 <head>
                     <title>United States Presidents' State of the Union Addresses</title>
-                    <link rel="stylesheet" href="/SOTU_Addresses/html-css/index.css"/>
+                    <link type="text/css" rel="stylesheet" href="index.css"/>
                 </head>
                 
                 

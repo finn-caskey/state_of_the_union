@@ -10,7 +10,7 @@
         <html>
             <head>
                 <title>Percent of References per Speech</title>
-                <link rel="stylesheet" href="/InaugAddresses/html-css/index.css"/>
+                <link type="text/css" rel="stylesheet" href="index.css"/>
             </head>
             
             <body>
