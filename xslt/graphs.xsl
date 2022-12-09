@@ -80,7 +80,7 @@
                             <xsl:variable name="xposC" select="string-length(normalize-space(string-join(descendant::topic[@type = 'civ'])))*.05+20"/>
                             <xsl:variable name="xposP" select="string-length(normalize-space(string-join(descendant::topic[@type = 'pov'])))*.05+20"/>
                             
-                            <!--bars (war, social, economy, diplomacy, religion-->
+                            <!--bars-->
                             <line x1="20" x2="{$xposW}" y1="{$ypos}" y2="{$ypos}" stroke="red" stroke-width="15"/>
                             <line x1="20" x2="{$xposI}" y1="{$ypos+15}" y2="{$ypos+15}" stroke="blue" stroke-width="15"/>
                             <line x1="20" x2="{$xposD}" y1="{$ypos+30}" y2="{$ypos+30}" stroke="green" stroke-width="15"/>

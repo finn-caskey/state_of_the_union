@@ -14,7 +14,7 @@
             </head>
             
             <body>
-                <h1>Inaugural Addresses</h1>
+                <h1>State Of The Union</h1>
                 <!--navbar-->
                 <div id="navbar">
                     <div class="navbar">
@@ -68,10 +68,10 @@
                         <text x="1020" y="-10" text-anchor="middle">100%</text>
                         
                         <!-- Instead stead of using xsl:apply-templates and creating another xsl:template match, we use xsl:for-each -->
-                        <xsl:for-each select="//address">
+                        <xsl:for-each select="//scope//address">
                             <!-- Local variables -->
                             <xsl:variable name="ypos" select="position() * $interval"/>
-                            <xsl:variable name="xpos" select="(count(descendant::ref[@type]) *20 )+20"/>
+                            <xsl:variable name="xpos" select="(count(descendant::topic[@type]) *20 )+20"/>
                             
                             <xsl:variable name="xposW" select="(string-length(normalize-space(string-join(descendant::topic[@type = 'war']))))div(string-length(normalize-space(string-join(descendant::p))))*100*10+20"/>
                             <xsl:variable name="xposI" select="(string-length(normalize-space(string-join(descendant::topic[@type = 'infra']))))div(string-length(normalize-space(string-join(descendant::p))))*100*10+20"/>
@@ -80,13 +80,13 @@
                             <xsl:variable name="xposC" select="(string-length(normalize-space(string-join(descendant::topic[@type = 'civ']))))div(string-length(normalize-space(string-join(descendant::p))))*100*10+20"/>
                             <xsl:variable name="xposP" select="(string-length(normalize-space(string-join(descendant::topic[@type = 'pov']))))div(string-length(normalize-space(string-join(descendant::p))))*100*10+20"/>
                             
-                            <!--bars (war, social, economy, diplomacy, religion-->
+                            <!--bars-->
                             <line x1="20" x2="{$xposW}" y1="{$ypos}" y2="{$ypos}" stroke="red" stroke-width="15"/>
                             <line x1="20" x2="{$xposI}" y1="{$ypos+15}" y2="{$ypos+15}" stroke="blue" stroke-width="15"/>
                             <line x1="20" x2="{$xposD}" y1="{$ypos+30}" y2="{$ypos+30}" stroke="green" stroke-width="15"/>
                             <line x1="20" x2="{$xposE}" y1="{$ypos+45}" y2="{$ypos+45}" stroke="orange" stroke-width="15"/>
                             <line x1="20" x2="{$xposC}" y1="{$ypos+60}" y2="{$ypos+60}" stroke="magenta" stroke-width="15"/>
-                            <line x1="20" x2="{$xposP}" y1="{$ypos+60}" y2="{$ypos+75}" stroke="magenta" stroke-width="15"/>
+                            <line x1="20" x2="{$xposP}" y1="{$ypos+75}" y2="{$ypos+75}" stroke="black" stroke-width="15"/>
                             
                             <!-- labels each bar with its count -->
                             <text x="{$xposW + 10}" y="{$ypos+5}">
