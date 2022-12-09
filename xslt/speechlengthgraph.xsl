@@ -104,6 +104,21 @@
                             <text x="1450" y="-10" text-anchor="middle">11000</text>
                             <text x="1580" y="-10" text-anchor="middle">12000</text>
                             
+                            
+                            <!-- the line going through the bars  -->
+                            <line x1="150" x2="150" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="280" x2="280" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="410" x2="410" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="540" x2="540" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="670" x2="670" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="800" x2="800" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="930" x2="930" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="1060" x2="1060" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="1190" x2="1190" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="1320" x2="1320" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="1450" x2="1450" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            <line x1="1580" x2="1580" y1="0" y2="{(59 * $interval) -1160}" stroke="black" stroke-width="1" stroke-dasharray="8"/>
+                            
                             <xsl:for-each-group select = "//address" group-by = "president">
                                 
                                                                
