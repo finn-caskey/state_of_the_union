@@ -34,7 +34,7 @@ font-family: arial, helvetica, sans-serif;
     margin: 0;
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: grey;
+    background-color: #6699ff;
 }
 .dropdown-content {
     display: none;
