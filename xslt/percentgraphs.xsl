@@ -129,7 +129,7 @@
                             </text>
                             
                             <!--y-axis label -->
-                            <text x="-100" y="{$ypos+30}" text-anchor="middle"><xsl:apply-templates select="president"/>-<xsl:apply-templates select = "date"/></text>
+                            <text x="15" y="{$ypos+35}" text-anchor="middle"><xsl:apply-templates select="president"/>-<xsl:apply-templates select = "date"/></text>
                             
                         </xsl:for-each>
                     </g>
