@@ -45,14 +45,14 @@
                     </div>
                 </div>  
                 <h1>Percentage of Each Speech Referring to Each Category</h1>
-                <svg width="150%" height="850%">
+                <svg width="100%" height="850%">
                     <g transform="translate(250, 50)">
                         
                         <!-- to do == flip names so they come from top, add numbers on top axis, fit all names on the graph-->
                         <!-- y-axis -->
                         <line x1="20" x2="20" y1="0" y2="{(59 * $interval) + 100}" stroke="black" stroke-width="1"/>
                         <!-- x-axis (bottom) -->
-                        <line x1="20" x2="1050" y1="{(59 * $interval) + 100}" y2="{(59 * $interval) +100}" stroke="black" stroke-width="1"/>
+                        <line x1="20" x2="1050" y1="{(59 * $interval) +100}" y2="{(59 * $interval) }" stroke="black" stroke-width="1"/>
                         <!-- x-axis (top)-->
                         <line x1="20" x2="1050" y1="0" y2="0" stroke="black" stroke-width="1"/>
                         
