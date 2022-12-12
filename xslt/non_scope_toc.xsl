@@ -14,7 +14,7 @@
             
             <head>
                 <title>United States Presidents' State of the Union Addresses</title>
-                <link type="text/css" href="html/index.css" rel="stylesheet" />
+                <link type="text/css" href="index.css" rel="stylesheet" />
             </head>
             
             
@@ -23,17 +23,32 @@
                 <!--navbar-->
                 <div id="navbar">
                     <div class="navbar">
-                        <ul>
-                            <li><a href="/state_of_the_union/index.html">Home</a></li>
-                            <li><a href="/state_of_the_union/html/about.html">About</a></li>
-                            <li><a href="/state_of_the_union/html/scope_toc.html">Addresses from John F. Kennedy to George W. Bush</a></li>
-                            <li><a href="/state_of_the_union/html/non_scope_toc.html">All Addresses</a></li>
-                            <li><a href="/state_of_the_union/html/graphs.html">Topic Reference Graphs By Mention</a></li>
-                            <li><a href="/state_of_the_union/html/percentgraphs.html">Topic Reference Graphs By Percentage</a></li>
-                            <li><a href="/state_of_the_union/html/speechlengthgraph.html">Average Address Length By President</a></li>
-                        </ul>
+                        <a href="/state_of_the_union/index.html">Home</a>
+                        <div class="dropdown">
+                            <button class="dropbtn">About</button>
+                            <div class="dropdown-content">
+                                <a href="/state_of_the_union/html/about.html">About the Project</a>
+                                <a href="/state_of_the_union/html/team.html">Team</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Original Texts</button>
+                            <div class="dropdown-content">
+                                <a href="/state_of_the_union/html/scope_toc.html">Project Scope (John F. Kennedy to George W. Bush)</a>
+                                <a href="/state_of_the_union/html/non_scope_toc.html">All Addresses (George Washington to George W. Bush</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Analysis</button>
+                            <div class="dropdown-content">
+                                <a href="/state_of_the_union/html/graphs.html">Topic Reference Graphs By Mention</a>
+                                <a href="/state_of_the_union/html/percentgraphs.html">Topic Reference Graphs By Percentage</a>
+                                <a href="/state_of_the_union/html/speechlengthgraph.html">Average Address Length By President</a>
+                                <a href="/state_of_the_union/html/discussion.html">Discussion</a>                       
+                            </div>
+                        </div>                
                     </div>
-                </div>
+                </div>  
                 <h1>United States Presidents' State of the Union Addresses</h1>
                 
                 
