@@ -11,6 +11,12 @@ p {
   margin-left: 50px;
 }
 
+footer {
+    background-color: ivory;
+    color: #8B0000;
+    font-family: arial, helvetica, sans-serif;
+}
+
 .navbar {
     display: flex;
     width: 100%;
