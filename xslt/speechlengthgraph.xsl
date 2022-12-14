@@ -142,7 +142,7 @@
                                 
                                 <xsl:variable name="xposP" select="string-length(string-join(current-group())) div count(current-group())*.0125+20"/>
                                  
-                                <line x1="20" x2="{$xposP}" y1="{$ypos}" y2="{$ypos}" stroke="red" stroke-width="15"/>
+                                <line x1="20" x2="{$xposP}" y1="{$ypos}" y2="{$ypos}" stroke="#8B0000" stroke-width="15"/>
                                 
                                 <text x="{$xposP + 10}" y="{$ypos+5}">
                                      <xsl:value-of select="round(string-length(string-join(current-group())) div count(current-group()))"/>
