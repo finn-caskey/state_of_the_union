@@ -3,6 +3,14 @@ background-color: ivory;
 color: #70003D;
 font-family: arial, helvetica, sans-serif;
 }
+
+p {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 400px;
+  margin-left: 50px;
+}
+
 .navbar {
     display: flex;
     width: 100%;
