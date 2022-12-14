@@ -12,9 +12,21 @@ p {
 }
 
 footer {
-    background-color: ivory;
-    color: #8B0000;
+    display: block;
+    text-align:center;
+    background-color: #8B0000;
+    color: #70003D;
     font-family: arial, helvetica, sans-serif;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: gray;
 }
 
 .navbar {
