@@ -50,24 +50,24 @@
                         
                         <!-- to do == flip names so they come from top, add numbers on top axis, fit all names on the graph-->
                         <!-- y-axis -->
-                        <line x1="20" x2="20" y1="0" y2="{(59 * $interval) + 100}" stroke="black" stroke-width="1"/>
+                        <line x1="20" x2="20" y1="0" y2="{(59 * $interval) - 1600}" stroke="black" stroke-width="1"/>
                         <!-- x-axis (bottom) -->
-                        <line x1="20" x2="1050" y1="{(59 * $interval) +100}" y2="{(59 * $interval) }" stroke="black" stroke-width="1"/>
+                        <line x1="20" x2="1020" y1="{(59 * $interval) - 1600}" y2="{(59 * $interval) - 1600}" stroke="black" stroke-width="1"/>
                         <!-- x-axis (top)-->
-                        <line x1="20" x2="1050" y1="0" y2="0" stroke="black" stroke-width="1"/>
+                        <line x1="20" x2="1020" y1="0" y2="0" stroke="black" stroke-width="1"/>
                         
                         <!-- labels the x-axis (bottom) -->
-                        <text x="20" y="{(59 * $interval) + 120}" text-anchor="middle">0%</text>
-                        <text x="120" y="{(59 * $interval) + 120}" text-anchor="middle">10%</text>
-                        <text x="220" y="{(59 * $interval) + 120}" text-anchor="middle">20%</text>
-                        <text x="320" y="{(59 * $interval) + 120}" text-anchor="middle">30%</text>
-                        <text x="420" y="{(59 * $interval) + 120}" text-anchor="middle">40%</text>
-                        <text x="520" y="{(59 * $interval) + 120}" text-anchor="middle">50%</text>
-                        <text x="620" y="{(59 * $interval) + 120}" text-anchor="middle">60%</text>
-                        <text x="720" y="{(59 * $interval) + 120}" text-anchor="middle">70%</text>
-                        <text x="820" y="{(59 * $interval) + 120}" text-anchor="middle">80%</text>
-                        <text x="920" y="{(59 * $interval) + 120}" text-anchor="middle">90%</text>
-                        <text x="1020" y="{(59 * $interval) + 120}" text-anchor="middle">100%</text>
+                        <text x="20" y="{(59 * $interval) - 1580}" text-anchor="middle">0%</text>
+                        <text x="120" y="{(59 * $interval) - 1580}" text-anchor="middle">10%</text>
+                        <text x="220" y="{(59 * $interval) - 1580}" text-anchor="middle">20%</text>
+                        <text x="320" y="{(59 * $interval) - 1580}" text-anchor="middle">30%</text>
+                        <text x="420" y="{(59 * $interval) - 1580}" text-anchor="middle">40%</text>
+                        <text x="520" y="{(59 * $interval) - 1580}" text-anchor="middle">50%</text>
+                        <text x="620" y="{(59 * $interval) - 1580}" text-anchor="middle">60%</text>
+                        <text x="720" y="{(59 * $interval) - 1580}" text-anchor="middle">70%</text>
+                        <text x="820" y="{(59 * $interval) - 1580}" text-anchor="middle">80%</text>
+                        <text x="920" y="{(59 * $interval) - 1580}" text-anchor="middle">90%</text>
+                        <text x="1020" y="{(59 * $interval) - 1580}" text-anchor="middle">100%</text>
                         
                         <!-- labels the x-axis (top) -->
                         <text x="20" y="-10" text-anchor="middle">0%</text>
@@ -102,6 +102,20 @@
                             <line x1="20" x2="{$xposE}" y1="{$ypos+45}" y2="{$ypos+45}" stroke="orange" stroke-width="15"/>
                             <line x1="20" x2="{$xposC}" y1="{$ypos+60}" y2="{$ypos+60}" stroke="magenta" stroke-width="15"/>
                             <line x1="20" x2="{$xposP}" y1="{$ypos+75}" y2="{$ypos+75}" stroke="black" stroke-width="15"/>
+                            
+                            
+                            <!-- the line going through the bars  -->
+                            <line x1="120" x2="120" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                            <line x1="220" x2="220" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                            <line x1="320" x2="320" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                            <line x1="420" x2="420" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                            <line x1="520" x2="520" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                            <line x1="620" x2="620" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                            <line x1="720" x2="720" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                            <line x1="820" x2="820" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                            <line x1="920" x2="920" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                            <line x1="1020" x2="1020" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                            
                             
                             <!-- labels each bar with its count -->
                             <text x="{$xposW + 10}" y="{$ypos+5}">

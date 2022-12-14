@@ -50,24 +50,24 @@
                             
                         <!-- to do == flip names so they come from top, add numbers on top axis, fit all names on the graph-->
                         <!-- y-axis -->
-                        <line x1="20" x2="20" y1="0" y2="{(59 * $interval) + 100}" stroke="black" stroke-width="1"/>
+                        <line x1="20" x2="20" y1="0" y2="{(59 * $interval) - 1620}" stroke="black" stroke-width="1"/>
                         <!-- x-axis (bottom) -->
-                        <line x1="20" x2="1400" y1="{(59 * $interval) + 100}" y2="{(59 * $interval) +100}" stroke="black" stroke-width="1"/>
+                        <line x1="20" x2="1400" y1="{(59 * $interval) - 1620}" y2="{(59 * $interval) - 1620}" stroke="black" stroke-width="1"/>
                         <!-- x-axis (top)-->
                         <line x1="20" x2="1400" y1="0" y2="0" stroke="black" stroke-width="1"/>
                         
                         <!-- labels the x-axis (bottom) -->
-                        <text x="20" y="{(59 * $interval) + 120}" text-anchor="middle">0</text>
-                        <text x="150" y="{(59 * $interval) + 120}" text-anchor="middle">1000</text>
-                        <text x="280" y="{(59 * $interval) + 120}" text-anchor="middle">2000</text>
-                        <text x="410" y="{(59 * $interval) + 120}" text-anchor="middle">3000</text>
-                        <text x="540" y="{(59 * $interval) + 120}" text-anchor="middle">4000</text>
-                        <text x="670" y="{(59 * $interval) + 120}" text-anchor="middle">5000</text>
-                        <text x="800" y="{(59 * $interval) + 120}" text-anchor="middle">6000</text>
-                        <text x="930" y="{(59 * $interval) + 120}" text-anchor="middle">7000</text>
-                        <text x="1060" y="{(59 * $interval) + 120}" text-anchor="middle">8000</text>
-                        <text x="1190" y="{(59 * $interval) + 120}" text-anchor="middle">9000</text>
-                        <text x="1320" y="{(59 * $interval) + 120}" text-anchor="middle">10000</text>
+                        <text x="20" y="{(59 * $interval) - 1600}" text-anchor="middle">0</text>
+                        <text x="150" y="{(59 * $interval) - 1600}" text-anchor="middle">1000</text>
+                        <text x="280" y="{(59 * $interval) - 1600}" text-anchor="middle">2000</text>
+                        <text x="410" y="{(59 * $interval) - 1600}" text-anchor="middle">3000</text>
+                        <text x="540" y="{(59 * $interval) - 1600}" text-anchor="middle">4000</text>
+                        <text x="670" y="{(59 * $interval) - 1600}" text-anchor="middle">5000</text>
+                        <text x="800" y="{(59 * $interval) - 1600}" text-anchor="middle">6000</text>
+                        <text x="930" y="{(59 * $interval) - 1600}" text-anchor="middle">7000</text>
+                        <text x="1060" y="{(59 * $interval) - 1600}" text-anchor="middle">8000</text>
+                        <text x="1190" y="{(59 * $interval) - 1600}" text-anchor="middle">9000</text>
+                        <text x="1320" y="{(59 * $interval) - 1600}" text-anchor="middle">10000</text>
                         
                         <!-- labels the x-axis (top) -->
                         <text x="20" y="-10" text-anchor="middle">0</text>
