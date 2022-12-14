@@ -18,12 +18,14 @@
                 <link type="text/css" rel="stylesheet" href="index.css"/>
 
                 <script type="text/javascript" src="colortoggle.js">/**/</script>
+                
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
             </head>
             
             
             <body>
-                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                
                 <h1>State of the Union Addresses</h1>
                 <!--navbar-->
                 <!--navbar-->
