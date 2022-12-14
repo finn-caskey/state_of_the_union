@@ -52,57 +52,77 @@
                         <!-- y-axis -->
                         <line x1="20" x2="20" y1="0" y2="{(59 * $interval) - 1620}" stroke="black" stroke-width="1"/>
                         <!-- x-axis (bottom) -->
-                        <line x1="20" x2="1400" y1="{(59 * $interval) - 1620}" y2="{(59 * $interval) - 1620}" stroke="black" stroke-width="1"/>
+                        <line x1="20" x2="1020" y1="{(59 * $interval) - 1620}" y2="{(59 * $interval) - 1620}" stroke="black" stroke-width="1"/>
                         <!-- x-axis (top)-->
-                        <line x1="20" x2="1400" y1="0" y2="0" stroke="black" stroke-width="1"/>
+                        <line x1="20" x2="1020" y1="0" y2="0" stroke="black" stroke-width="1"/>
                         
                         <!-- labels the x-axis (bottom) -->
                         <text x="20" y="{(59 * $interval) - 1600}" text-anchor="middle">0</text>
                         <text x="70" y="{(59 * $interval) - 1600}" text-anchor="middle">1000</text>
-                        <text x="140" y="{(59 * $interval) - 1600}" text-anchor="middle">2000</text>
-                        <text x="210" y="{(59 * $interval) - 1600}" text-anchor="middle">3000</text>
-                        <text x="280" y="{(59 * $interval) - 1600}" text-anchor="middle">4000</text>
-                        <text x="350" y="{(59 * $interval) - 1600}" text-anchor="middle">5000</text>
-                        <text x="420" y="{(59 * $interval) - 1600}" text-anchor="middle">6000</text>
-                        <text x="490" y="{(59 * $interval) - 1600}" text-anchor="middle">7000</text>
-                        <text x="560" y="{(59 * $interval) - 1600}" text-anchor="middle">8000</text>
-                        <text x="630" y="{(59 * $interval) - 1600}" text-anchor="middle">9000</text>
-                        <text x="700" y="{(59 * $interval) - 1600}" text-anchor="middle">10000</text>
-                        <text x="770" y="{(59 * $interval) - 1600}" text-anchor="middle">11000</text>
-                        <text x="840" y="{(59 * $interval) - 1600}" text-anchor="middle">12000</text>
-                        <text x="910" y="{(59 * $interval) - 1600}" text-anchor="middle">13000</text>
-                        <text x="980" y="{(59 * $interval) - 1600}" text-anchor="middle">14000</text>
-                        <text x="1050" y="{(59 * $interval) - 1600}" text-anchor="middle">15000</text>
-                        <text x="1120" y="{(59 * $interval) - 1600}" text-anchor="middle">16000</text>
-                        <text x="1190" y="{(59 * $interval) - 1600}" text-anchor="middle">17000</text>
-                        <text x="1260" y="{(59 * $interval) - 1600}" text-anchor="middle">18000</text>
-                        <text x="1330" y="{(59 * $interval) - 1600}" text-anchor="middle">19000</text>
-                        <text x="1400" y="{(59 * $interval) - 1600}" text-anchor="middle">20000</text>
+                        <text x="120" y="{(59 * $interval) - 1600}" text-anchor="middle">2000</text>
+                        <text x="170" y="{(59 * $interval) - 1600}" text-anchor="middle">3000</text>
+                        <text x="220" y="{(59 * $interval) - 1600}" text-anchor="middle">4000</text>
+                        <text x="270" y="{(59 * $interval) - 1600}" text-anchor="middle">5000</text>
+                        <text x="320" y="{(59 * $interval) - 1600}" text-anchor="middle">6000</text>
+                        <text x="370" y="{(59 * $interval) - 1600}" text-anchor="middle">7000</text>
+                        <text x="420" y="{(59 * $interval) - 1600}" text-anchor="middle">8000</text>
+                        <text x="470" y="{(59 * $interval) - 1600}" text-anchor="middle">9000</text>
+                        <text x="520" y="{(59 * $interval) - 1600}" text-anchor="middle">10000</text>
+                        <text x="570" y="{(59 * $interval) - 1600}" text-anchor="middle">11000</text>
+                        <text x="620" y="{(59 * $interval) - 1600}" text-anchor="middle">12000</text>
+                        <text x="670" y="{(59 * $interval) - 1600}" text-anchor="middle">13000</text>
+                        <text x="720" y="{(59 * $interval) - 1600}" text-anchor="middle">14000</text>
+                        <text x="770" y="{(59 * $interval) - 1600}" text-anchor="middle">15000</text>
+                        <text x="820" y="{(59 * $interval) - 1600}" text-anchor="middle">16000</text>
+                        <text x="870" y="{(59 * $interval) - 1600}" text-anchor="middle">17000</text>
+                        <text x="920" y="{(59 * $interval) - 1600}" text-anchor="middle">18000</text>
+                        <text x="970" y="{(59 * $interval) - 1600}" text-anchor="middle">19000</text>
+                        <text x="1020" y="{(59 * $interval) - 1600}" text-anchor="middle">20000</text>
                         
                         <!-- labels the x-axis (top) -->
                         <text x="20" y="-10" text-anchor="middle">0</text>
                         <text x="70" y="-10" text-anchor="middle">1000</text>
-                        <text x="140" y="-10" text-anchor="middle">2000</text>
-                        <text x="210" y="-10" text-anchor="middle">3000</text>
-                        <text x="280" y="-10" text-anchor="middle">4000</text>
-                        <text x="350" y="-10" text-anchor="middle">5000</text>
-                        <text x="420" y="-10" text-anchor="middle">6000</text>
-                        <text x="490" y="-10" text-anchor="middle">7000</text>
-                        <text x="560" y="-10" text-anchor="middle">8000</text>
-                        <text x="630" y="-10" text-anchor="middle">9000</text>
-                        <text x="700" y="-10" text-anchor="middle">10000</text>
-                        <text x="770" y="-10" text-anchor="middle">11000</text>
-                        <text x="840" y="-10" text-anchor="middle">12000</text>
-                        <text x="910" y="-10" text-anchor="middle">13000</text>
-                        <text x="980" y="-10" text-anchor="middle">14000</text>
-                        <text x="1050" y="-10" text-anchor="middle">15000</text>
-                        <text x="1120" y="-10" text-anchor="middle">16000</text>
-                        <text x="1190" y="-10" text-anchor="middle">17000</text>
-                        <text x="1260" y="-10" text-anchor="middle">18000</text>
-                        <text x="1330" y="-10" text-anchor="middle">19000</text>
-                        <text x="1400" y="-10" text-anchor="middle">20000</text>
+                        <text x="120" y="-10" text-anchor="middle">2000</text>
+                        <text x="170" y="-10" text-anchor="middle">3000</text>
+                        <text x="220" y="-10" text-anchor="middle">4000</text>
+                        <text x="270" y="-10" text-anchor="middle">5000</text>
+                        <text x="320" y="-10" text-anchor="middle">6000</text>
+                        <text x="370" y="-10" text-anchor="middle">7000</text>
+                        <text x="420" y="-10" text-anchor="middle">8000</text>
+                        <text x="470" y="-10" text-anchor="middle">9000</text>
+                        <text x="520" y="-10" text-anchor="middle">10000</text>
+                        <text x="570" y="-10" text-anchor="middle">11000</text>
+                        <text x="620" y="-10" text-anchor="middle">12000</text>
+                        <text x="670" y="-10" text-anchor="middle">13000</text>
+                        <text x="720" y="-10" text-anchor="middle">14000</text>
+                        <text x="770" y="-10" text-anchor="middle">15000</text>
+                        <text x="820" y="-10" text-anchor="middle">16000</text>
+                        <text x="870" y="-10" text-anchor="middle">17000</text>
+                        <text x="920" y="-10" text-anchor="middle">18000</text>
+                        <text x="970" y="-10" text-anchor="middle">19000</text>
+                        <text x="1020" y="-10" text-anchor="middle">20000</text>
                         
-                        
+                        <!-- the line going through the bars  -->
+                        <line x1="70" x2="70" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="120" x2="120" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="170" x2="170" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="220" x2="220" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="270" x2="270" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="320" x2="320" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="370" x2="370" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="420" x2="420" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="470" x2="470" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="520" x2="520" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="570" x2="570" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="620" x2="620" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="670" x2="670" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="720" x2="720" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="770" x2="770" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="820" x2="820" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="870" x2="870" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="920" x2="920" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="970" x2="970" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                        <line x1="1020" x2="1020" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
                         
                         
                         <!-- Instead stead of using xsl:apply-templates and creating another xsl:template match, we use xsl:for-each -->
@@ -127,27 +147,7 @@
                             <line x1="20" x2="{$xposP}" y1="{$ypos+75}" y2="{$ypos+75}" stroke="black" stroke-width="15"/>
                             
                             
-                            <!-- the line going through the bars  -->
-                            <line x1="70" x2="70" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="140" x2="140" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="210" x2="210" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="280" x2="280" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="350" x2="350" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="420" x2="420" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="490" x2="490" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="560" x2="560" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="630" x2="630" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="700" x2="700" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="770" x2="770" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="840" x2="840" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="910" x2="910" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="980" x2="980" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="1050" x2="1050" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="1120" x2="1120" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="1190" x2="1190" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="1260" x2="1260" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="1330" x2="1330" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
-                            <line x1="1400" x2="1400" y1="0" y2="{(59 * $interval) -1620}" stroke="black" stroke-width=".25" stroke-dasharray="8"/>
+                           
                             
                             
                             <!-- labels each bar with its count -->
