@@ -20,14 +20,7 @@ footer {
 }
 
 
-a:link {
-  color: white;
-}
 
-
-a:visited {
-  color: gray;
-}
 
 .navbar {
     display: flex;
