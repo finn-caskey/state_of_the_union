@@ -23,6 +23,7 @@
             
             
             <body>
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
                 <h1>State of the Union Addresses</h1>
                 <!--navbar-->
                 <!--navbar-->
