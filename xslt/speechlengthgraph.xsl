@@ -53,7 +53,7 @@
                         </div>
                     </div>  
                     <h1>United States Presidents' State of the Union Addresses</h1>
-                    <h2>Speech Length</h2>
+                    <h2>Average Speech Length for Each President</h2>
                     <!--generates table w same data as graph-->
                    <!-- 
                     <table>
@@ -78,7 +78,7 @@
                     </table>
                     -->
                     
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 10000">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2800">
                         <g transform="translate(250, 50)">
                             
                            
@@ -154,6 +154,13 @@
                             </xsl:for-each-group>
                         </g>
                     </svg>
+                    <footer>
+                        <br/>
+                            <p><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="/state_of_the_union/pics/cclicense.png" alt="state_of_the_union/pics/cclicense.png"></img></a></p>
+                            <p><a href="https://github.com/finn-caskey/state_of_the_union">SOTU Team Github Here</a></p>
+                            <br/>
+                                <br/>
+                    </footer>
                 </body>
                 
             </html>
