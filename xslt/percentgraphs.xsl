@@ -45,7 +45,7 @@
                     </div>
                 </div>  
                 <h1>Percentage of Each Speech Referring to Each Category</h1>
-                <svg width="100%" height="850%">
+                <svg width="100%" height="820%">
                     <g transform="translate(250, 50)">
                         
                         <!-- to do == flip names so they come from top, add numbers on top axis, fit all names on the graph-->
