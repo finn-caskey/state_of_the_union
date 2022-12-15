@@ -53,7 +53,7 @@
                         </div>
                     </div>  
                     <h1>United States Presidents' State of the Union Addresses</h1>
-                    <h2>Speech Length</h2>
+                    <h2>Average Speech Length for Each President</h2>
                     <!--generates table w same data as graph-->
                    <!-- 
                     <table>
@@ -78,7 +78,7 @@
                     </table>
                     -->
                     
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 10000">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2800">
                         <g transform="translate(250, 50)">
                             
                            
