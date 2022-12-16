@@ -87,7 +87,7 @@
                 
                 <footer>
                     <br/>
-                        <p><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="/state_of_the_union/pics/cclicense.png" alt="state_of_the_union/pics/cclicense.png"></img></a></p>
+                    <p><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="/state_of_the_union/pics/propercclicense.png" alt="state_of_the_union/pics/cclicense.png"></img></a></p>
                         <p><a href="https://github.com/finn-caskey/state_of_the_union">SOTU Team Github Here</a></p>
                         <br/>
                             <br/>
