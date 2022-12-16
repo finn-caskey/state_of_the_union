@@ -50,7 +50,7 @@
                     </div>
                 </div>  
                 <h1>Character Count of References by Speech</h1>
-                <svg width="100%" height="820%">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 6000">
                     <g transform="translate(250, 50)">
                             
                         <!-- to do == flip names so they come from top, add numbers on top axis, fit all names on the graph-->

@@ -50,7 +50,7 @@
                     </div>
                 </div>  
                 <h1>Percentage of Each Speech Referring to Each Category</h1>
-                <svg width="100%" height="820%">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 6000">
                     <g transform="translate(250, 50)">
                         
                         <!-- to do == flip names so they come from top, add numbers on top axis, fit all names on the graph-->
@@ -87,6 +87,18 @@
                         <text x="920" y="-10" text-anchor="middle">90%</text>
                         <text x="1020" y="-10" text-anchor="middle">100%</text>
                         
+                        <!-- the line going through the bars  -->
+                        <line x1="120" x2="120" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                        <line x1="220" x2="220" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                        <line x1="320" x2="320" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                        <line x1="420" x2="420" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                        <line x1="520" x2="520" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                        <line x1="620" x2="620" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                        <line x1="720" x2="720" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                        <line x1="820" x2="820" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                        <line x1="920" x2="920" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                        <line x1="1020" x2="1020" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                        
                         <!-- Instead stead of using xsl:apply-templates and creating another xsl:template match, we use xsl:for-each -->
                         <xsl:for-each select="//scope//address">
                             <!-- Local variables -->
@@ -109,17 +121,7 @@
                             <line x1="20" x2="{$xposP}" y1="{$ypos+75}" y2="{$ypos+75}" stroke="black" stroke-width="15"/>
                             
                             
-                            <!-- the line going through the bars  -->
-                            <line x1="120" x2="120" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
-                            <line x1="220" x2="220" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
-                            <line x1="320" x2="320" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
-                            <line x1="420" x2="420" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
-                            <line x1="520" x2="520" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
-                            <line x1="620" x2="620" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
-                            <line x1="720" x2="720" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
-                            <line x1="820" x2="820" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
-                            <line x1="920" x2="920" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
-                            <line x1="1020" x2="1020" y1="0" y2="{(59 * $interval) -1600}" stroke="black" stroke-width=".5" stroke-dasharray="8"/>
+                            
                             
                             
                             <!-- labels each bar with its count -->
