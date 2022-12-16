@@ -19,9 +19,7 @@
 
                 <script type="text/javascript" src="colortoggle.js">/**/</script>
                 
-                <script src="topofpage.js">/**/</script>
                 
-                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
             </head>
             
@@ -95,9 +93,6 @@
                             <br/>
                 </footer>
                
-                <div class="scroll-top"> <!--scrollbar at the end of main-->
-                    <a class="scroll-top__link" href="#">Back to top</a> <!--href="#" navigates to the top of the page-->
-                </div>
                
             </body>
             
