@@ -111,7 +111,10 @@
     </xsl:template>
     
     <xsl:template match = "address">
-        <h2 id = "id{translate(child::date, ' ','_')}"><xsl:apply-templates select = "child::president"/></h2>
+        <!--topofpagebutton-->
+        <a href="#top"><button id = "id{translate(child::date, ' ','_')}" type="button">Back to top of page</button></a>
+        
+        <h2><xsl:apply-templates select = "child::president"/></h2>
         <h3><xsl:apply-templates select = "child::date"/></h3>
         <xsl:apply-templates select="descendant::p"/>
     </xsl:template>

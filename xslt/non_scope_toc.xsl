@@ -82,11 +82,13 @@
         <li><a href="#id{translate(child::date,' ', '_')}"><strong><xsl:apply-templates select = "child::president"/>
             <xsl:text>: </xsl:text>
         <xsl:apply-templates select="child::date"/></strong></a>
-        <xsl:text> [Refs: </xsl:text><xsl:value-of select = "count(descendant::ref[@type])"/><xsl:text>]</xsl:text></li>    
+        </li>    
     </xsl:template>
     
     <xsl:template match = "address">
-        <h2 id = "id{translate(child::date, ' ','_')}"><xsl:apply-templates select = "child::president"/></h2>
+        <!--topofpagebutton-->
+        <a href="#top"><button id = "id{translate(child::date, ' ','_')}" type="button">Back to top of page</button></a>
+        <h2><xsl:apply-templates select = "child::president"/></h2>
         <h3><xsl:apply-templates select = "child::date"/></h3>
         <xsl:apply-templates select="descendant::p"/>
     </xsl:template>
