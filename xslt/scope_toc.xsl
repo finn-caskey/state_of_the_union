@@ -19,6 +19,8 @@
 
                 <script type="text/javascript" src="colortoggle.js">/**/</script>
                 
+                <script src="topofpage.js">/**/</script>
+                
                 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
             </head>
