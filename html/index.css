@@ -1,6 +1,6 @@
 body {
 background-color: ivory;
-color: #70003D;
+color: black;
 font-family: arial, helvetica, sans-serif;
 }
 
@@ -117,7 +117,7 @@ span.civil-rights.on{
 }
 
 span.poverty.on{
-    color:black;
+    color:#b33c00;
 }
 
 .customIndent {
