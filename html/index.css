@@ -121,22 +121,18 @@ span.poverty.on{
     color:black;
 }
 
-#myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+main {position: relative;} /* to place scrollbar */
+section {height: 300vh;} /* so we can scroll */
+footer {height: 5rem;} /* a typical footer height */
+
+.scroll-top {
+  position: absolute; /* relative to its positioned <main> parent */
+  top: 120vh; /* starts below the bottom of the screen */
+  bottom: 3rem; /* stops scrolling before the end */
+  right: 2rem; /* offset from right hand side */
 }
 
-#myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
-}
+.scroll-top__link {
+  position: -webkit-sticky; /* for Safari */
+  position: sticky; /* 'relative' until element reaches... */
+  top: 90vh; /* 90% viewport height from the top, when it becomes 'fixed' - until its container toggles it back to 'relative' */

@@ -94,7 +94,11 @@
                         <br/>
                             <br/>
                 </footer>
-                
+               
+                <div class="scroll-top"> <!--scrollbar at the end of main-->
+                    <a class="scroll-top__link" href="#">Back to top</a> <!--href="#" navigates to the top of the page-->
+                </div>
+               
             </body>
             
         </html>
