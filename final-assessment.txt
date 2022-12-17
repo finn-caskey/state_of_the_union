@@ -1,0 +1,15 @@
+Instructor's Report
+State of the Union Project
+Date: December 17, 2022
+
+Inspired by the Inaugural Addresses project last year, this team selected more than four decades' worth of State of the Union addresses to read through and mark up for specific themes. The theme selection overlapped with but expanded upon that of the Inaugural project. This means that it would be possible for an interested user to consult both side by side and compare the prevalence of certain themese in a given president's inaugural addresses and his State of the Union addresses.
+
+The user interface is clean and easy to navigate. A little more css work could have improved upon the page borders and text placement and so forth, but that is a minor matter of aesthetics. 
+
+The "scope" text page, again parallel to what is found in Inaugural Addresses, allows a user to click on tick boxes which, through JavaScript and css, change the text color where a president was speaking about that theme. Because there are far more addresses that were not marked up, the team made a second text page without that feature but with all addresses so anyone who just wanted to read the texts could do so.
+
+The graph pages show some improvement on the model the Inaugural team created, in two ways. Dotted vertical index lines make it a bit easier to compare bar length as one scrolls up and down; and an additional page tracks the average speech length of each president, from George Washington to George W. Bush. Readers might be interested to know that the era of the longest addresses (early 19th to early 20th centuries) corresponded to the period when the State of the Union was delivered not as a speech but as a written report, with the result that the president did not have to think about how long his audience could sit still and listen.
+
+This is a project that has potential for future expansion in several ways. A future team could mark up more addresses, could add more themes (some of which this team helpfully suggests on their site), could cross-reference State of the Union addresses with Inaugural addresses, could analyze the relationship of these themes to historical events, and so forth.
+
+-Dr. Campbell
